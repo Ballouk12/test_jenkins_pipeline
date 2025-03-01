@@ -8,7 +8,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo '📥 Clonage du dépôt...'
-                git branch: 'main', url: 'https://github.com/ZahirOuma/helloWorld.git'
+                git branch: 'master', url: ' https://github.com/Ballouk12/test_jenkins_pipeline.git'
             }
         }
 
